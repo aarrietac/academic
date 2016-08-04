@@ -7,8 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Abel Castro</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Aug 2016 00:08:08 +0200</lastBuildDate>
     <atom:link href="http://replace-this-with-your-website-url.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>good to great</title>
+      <link>http://replace-this-with-your-website-url.com/post/good-to-great/</link>
+      <pubDate>Fri, 05 Aug 2016 00:08:08 +0200</pubDate>
+      
+      <guid>http://replace-this-with-your-website-url.com/post/good-to-great/</guid>
+      <description>&lt;p&gt;I read &lt;strong&gt;Good to Great in January 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Deep Learning</title>
