@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Academic Theme</title>
-    <link>http://aarrietac.github.io/publication/</link>
+    <link>https://aarrietac.github.io/bookshelf/publication/</link>
     <description>Recent content in Publications on Academic Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Abel Castro</copyright>
     <lastBuildDate>Sat, 05 Dec 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://aarrietac.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://aarrietac.github.io/bookshelf/publication/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Design an integrate vehicle control based-on hierarchical architecture for improve the performance of ground vehicles</title>
-      <link>http://aarrietac.github.io/publication/cobem_2015/</link>
+      <link>https://aarrietac.github.io/bookshelf/publication/cobem_2015/</link>
       <pubDate>Sat, 05 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://aarrietac.github.io/publication/cobem_2015/</guid>
+      <guid>https://aarrietac.github.io/bookshelf/publication/cobem_2015/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A method to estimate parameters of longitudinal and lateral dynamics of ground vehicles</title>
-      <link>http://aarrietac.github.io/publication/cobem_2013/</link>
+      <link>https://aarrietac.github.io/bookshelf/publication/cobem_2013/</link>
       <pubDate>Sun, 03 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://aarrietac.github.io/publication/cobem_2013/</guid>
+      <guid>https://aarrietac.github.io/bookshelf/publication/cobem_2013/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Estimation of Dynamic Parameters of Ground Vehicles based on Genetic Algorithms</title>
-      <link>http://aarrietac.github.io/publication/sae_2013/</link>
+      <link>https://aarrietac.github.io/bookshelf/publication/sae_2013/</link>
       <pubDate>Mon, 07 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://aarrietac.github.io/publication/sae_2013/</guid>
+      <guid>https://aarrietac.github.io/bookshelf/publication/sae_2013/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
