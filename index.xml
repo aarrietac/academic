@@ -16,25 +16,19 @@
       <pubDate>Tue, 09 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>https://aarrietac.github.io/academic/project/vitual-test-car/</guid>
-      <description>&lt;p&gt;In this project, I&amp;rsquo;m developing a virtual test car in python. The multi-body approach is applied. In this model, nine rigid bodies are considered, namely, 4 wheel-tires, 4 knuckles and 1 chassis (see Fig. 1). The equation of motions are obtained using the Jourdain&amp;rsquo;s Principle, also called the method of virtual power. Finally, a set of three differential equations describe the dynamics of the vehicle. The first set is the kinematic equation, here we coupled the time derivative of the generalized coordinates with the generalized velocities. The second set is the dynamic equation, in this step the generalized acceleration are calculated using the generalized forces and moments. The last set of equation is the dynamics of the forces elements.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;In this virtual car, we have three kind of suspension systems available, e.g., Double Wishbone, McPherson and Multi-link. The action of the force elements are calculated using the partial derivatives of its recpetives velocities against the generalized coordinates using to describe the suspension system. The lookup tables are employed to describe the force elements.&lt;/p&gt;
+&lt;h2 id=&#34;vehicle-modeling&#34;&gt;Vehicle modeling&lt;/h2&gt;
+
+&lt;p&gt;In this project, I&amp;rsquo;m developing a virtual test car. For the modeling, the multi-body approach is applied and nine rigid bodies are considered, namely, 4 wheel-tires, 4 knuckles and 1 chassis (see Fig. 1). The equation of motions are obtained using the Jourdain&amp;rsquo;s Principle, also called the method of virtual power. Finally, a set of three differential equations describe the dynamics of the vehicle. The first set is the kinematic equation, here, the time derivative of the generalized coordinates is calculated using the kinematic matrix and vector of generalized velocities. The second set is the dynamic equation, in this step the generalized acceleration are calculated using the generalized forces and moments. Finally, with the last set the generalized forces and calculated. In this virtual car, we have three kind of suspension systems available, e.g., Double Wishbone, McPherson and Multi-link. Lookup tables are employed to describe the force elements.&lt;/p&gt;
+
+&lt;h2 id=&#34;tire-modeling&#34;&gt;Tire modeling&lt;/h2&gt;
 
 &lt;p&gt;In vehicle dynamics, one of the most important phenomena is the tire-road interaction. In a proper vehicle model, the tire need to be modeled according to the application for which the vehicle model is being built. In this project, the Tire Model easy to use, also called TMeasy, is adopted. This model have two main advantages, e.g., accurate results and low time comsuming.&lt;/p&gt;
 
+&lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
 
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://aarrietac.github.io/academic/img/vehicle.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Multi-body vehicle model&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
+&lt;p&gt;More details about this project are available soon!&lt;/p&gt;
 </description>
     </item>
     
@@ -58,8 +52,7 @@
       <pubDate>Sat, 05 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://aarrietac.github.io/academic/publication/cobem_2015/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -68,8 +61,7 @@
       <pubDate>Sun, 03 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://aarrietac.github.io/academic/publication/cobem_2013/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -78,8 +70,7 @@
       <pubDate>Mon, 07 Oct 2013 00:00:00 +0000</pubDate>
       
       <guid>https://aarrietac.github.io/academic/publication/sae_2013/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>
