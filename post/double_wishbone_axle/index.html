@@ -20,9 +20,9 @@
 
 
     <link rel="shortcut icon" href="https://aarrietac.github.io/academic/img/favicon.ico" type="image/x-icon">
-    <link rel="canonical" href="https://aarrietac.github.io/academic/project/vitual-test-car/">
+    <link rel="canonical" href="https://aarrietac.github.io/academic/post/double_wishbone_axle/">
 
-    <title>PyCar: The virtual test car in Python | Vehicle dynamics and more</title>
+    <title>Double Wishbone kinematic modeling | Vehicle dynamics and more</title>
 
 </head>
 <body id="top">
@@ -66,31 +66,79 @@
 
 <div class="container">
 
-    <article class="article article-project" itemscope itemtype="http://schema.org/Article">
-        
-
-        <h1 itemprop="name">PyCar: The virtual test car in Python</h1>
+    <article class="article" itemscope itemtype="http://schema.org/Article">
 
         
+
+        <h1 itemprop="name">Double Wishbone kinematic modeling</h1>
+
+        
+
+<div class="article-metadata">
+
+    <span class="article-date">
+        <time datetime="2016-08-18 10:00:00 &#43;0000 UTC" itemprop="datePublished">Thu, Aug 18, 2016</time>
+    </span>
+
+    
+    
+    
+    
+
+    
+        
+<div class="share-box">
+    <ul class="share">
+        <li>
+            <a class="facebook" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2faarrietac.github.io%2facademic%2fpost%2fdouble_wishbone_axle%2f" target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a>
+        </li>
+        <li>
+            <a class="twitter" href="https://twitter.com/intent/tweet?text=Double%20Wishbone%20kinematic%20modeling&amp;url=https%3a%2f%2faarrietac.github.io%2facademic%2fpost%2fdouble_wishbone_axle%2f" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        <li>
+            <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2faarrietac.github.io%2facademic%2fpost%2fdouble_wishbone_axle%2f&amp;title=Double%20Wishbone%20kinematic%20modeling" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </li>
+        <li>
+            <a class="weibo" href="http://service.weibo.com/share/share.php?url=https%3a%2f%2faarrietac.github.io%2facademic%2fpost%2fdouble_wishbone_axle%2f&amp;title=Double%20Wishbone%20kinematic%20modeling" target="_blank">
+                <i class="fa fa-weibo"></i>
+            </a>
+        </li>
+        <li>
+            <a class="email" href="mailto:?subject=Double%20Wishbone%20kinematic%20modeling&amp;body=https%3a%2f%2faarrietac.github.io%2facademic%2fpost%2fdouble_wishbone_axle%2f">
+                <i class="fa fa-envelope"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+    
+
+</div>
+
 
         <div class="article-style" itemprop="articleBody">
             
 
-<p>A vehicle model implemented in python for dynamics analysis and control design.</p>
+<h2 id="description:5dfa281d035c0b5085b34657ad0cf4bc">Description</h2>
 
-<h2 id="vehicle-modeling:6dbeb5045cc5f922e01816bc91b7b629">Vehicle modeling</h2>
-
-<p>For the modeling, the multi-body approach is applied and nine rigid bodies are considered, namely, 4 wheel-tires, 4 knuckles and 1 chassis (see Fig. 1). The equation of motions are obtained using the Jourdain&rsquo;s Principle, also called the method of virtual power. Finally, a set of three differential equations describe the dynamics of the vehicle. The first set is the kinematic equation, here, the time derivative of the generalized coordinates is calculated using the kinematic matrix and the vector of generalized velocities. The second set is the dynamic equation, in this step the generalized acceleration are calculated using the vector of generalized forces and moments. The last set of equations is used to calculate the generalized forces of the force elements. In this virtual car, three kind of suspension systems available, e.g., Double Wishbone, McPherson and Multi-link. Lookup tables are employed to describe the force elements.</p>
+<p>The suspension is an important mechanical system in road vehicles. A typical suspension system consist in links, control arms, bushing, spring, damper and bump-stop. The rigid parts, i.e. links and control arms determine the kinematic of the suspension and the force elements, i.e. spring, damper and bump-stop define the forces that the suspension, with a generalize motion (road irregularities), will apply to the chassis. We can see on Fig. 1, some common suspension systems in passenger cars.</p>
 
 <p><div style="text-align:center" markdown="1">
 
 <figure >
     
-        <img src="http://localhost:1313/academic/img/vehicle.png" width="900" />
+        <img src="http://localhost:1313/academic/img/susp_models.png" width="900" />
     
     
     <figcaption>
-        <h4>Multi-body vehicle model and its coordinate systems [1].</h4>
+        <h4>Double wishbone, McPherson, and multi-link suspensions [1].</h4>
         
     </figcaption>
     
@@ -98,21 +146,30 @@
 
 <div style="text-align:left" markdown="1"></p>
 
-<h2 id="tire-modeling:6dbeb5045cc5f922e01816bc91b7b629">Tire modeling</h2>
+<p>The function of a suspension system can be categories into:</p>
 
-<p>In vehicle dynamics, one of the most important physical phenomena is the tire-road interaction. In a proper vehicle model, the tire needs to be modeled according to the application for which the vehicle model is being built. In this project, the Tire Model easy to use, also called TMeasy [2], is adopted. This model has two main advantages, accurate results and low time comsuming.</p>
+<h4 id="safety:5dfa281d035c0b5085b34657ad0cf4bc">Safety</h4>
 
-<h2 id="references:6dbeb5045cc5f922e01816bc91b7b629">References</h2>
+<ul>
+<li>Ensure the maximum contact between the tires and the road,</li>
+<li>Mantain the wheel in a proper alignment,</li>
+<li>Carry the car and passengers weight.</li>
+</ul>
+
+<h4 id="comfort:5dfa281d035c0b5085b34657ad0cf4bc">Comfort</h4>
+
+<ul>
+<li>Limit the travel distance of the chassis,</li>
+<li>Reduce the vertical accelerations,</li>
+<li>Absorb the impacts of the road (irrugularities, obstacles and holes).</li>
+</ul>
+
+<h2 id="references:5dfa281d035c0b5085b34657ad0cf4bc">References</h2>
 
 <p>[1]  Rill, G.: <a href="https://www.crcpress.com/Road-Vehicle-Dynamics-Fundamentals-and-Modeling/Rill/p/book/9781439838983">Road Vehicle Dynamics - Fundamentals and Modeling</a>, Taylor &amp; Francis, Boca Raton, 2011.</p>
 
-<p>[2]  Rill, G.: <a href="https://hps.hs-regensburg.de/~rig39165/paper/Rill_IAVSD2013.pdf">TMeasy–A Handling Tire Model based on a three-dimensional slip approach</a>. In Proceedings of the XXIII International Symposium on Dynamic of Vehicles on Roads and on Tracks (IAVSD 2013). Quingdao, China, 2013.</p>
-
-<h3 id="note:6dbeb5045cc5f922e01816bc91b7b629">Note</h3>
-
-<p>More details about this project will be available soon!</p>
-
         </div>
+
     </article>
 
     <nav>
@@ -120,10 +177,30 @@
         
 
         
-        <li class="next"><a href="https://aarrietac.github.io/academic/project/vitual-test-axle/">Virtual Test Axle Kinematics <span aria-hidden="true">&rarr;</span></a></li>
-        
     </ul>
 </nav>
+
+    
+<section id="comments">
+    <div id="disqus_thread">
+        <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'spf13';
+    var disqus_identifier = 'https:\/\/aarrietac.github.io\/academic\/post\/double_wishbone_axle\/';
+    var disqus_title = 'Double Wishbone kinematic modeling';
+    var disqus_url = 'https:\/\/aarrietac.github.io\/academic\/post\/double_wishbone_axle\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+</section>
+
 
 
 </div>
@@ -175,6 +252,11 @@
         <script>hljs.initHighlightingOnLoad();</script>
 
         
+        
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+        </script>
+        <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
         
 
     </body>

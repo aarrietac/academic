@@ -1,48 +1,146 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic Theme</title>
+    <title>Vehicle dynamics and more</title>
     <link>https://aarrietac.github.io/academic/</link>
-    <description>Recent content on Academic Theme</description>
+    <description>Recent content on Vehicle dynamics and more</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Abel Castro</copyright>
-    <lastBuildDate>Tue, 09 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Aug 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://aarrietac.github.io/academic/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Virtual Test Car</title>
-      <link>https://aarrietac.github.io/academic/project/vitual-test-car/</link>
-      <pubDate>Tue, 09 Aug 2016 00:00:00 +0000</pubDate>
+      <title>about</title>
+      <link>https://aarrietac.github.io/academic/home/about/</link>
+      <pubDate>Sat, 20 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://aarrietac.github.io/academic/project/vitual-test-car/</guid>
+      <guid>https://aarrietac.github.io/academic/home/about/</guid>
       <description>
 
-&lt;h2 id=&#34;vehicle-modeling&#34;&gt;Vehicle modeling&lt;/h2&gt;
+&lt;h1 id=&#34;biography:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Biography&lt;/h1&gt;
 
-&lt;p&gt;In this project, I&amp;rsquo;m developing a virtual test car. For the modeling, the multi-body approach is applied and nine rigid bodies are considered, namely, 4 wheel-tires, 4 knuckles and 1 chassis (see Fig. 1). The equation of motions are obtained using the Jourdain&amp;rsquo;s Principle, also called the method of virtual power. Finally, a set of three differential equations describe the dynamics of the vehicle. The first set is the kinematic equation, here, the time derivative of the generalized coordinates is calculated using the kinematic matrix and vector of generalized velocities. The second set is the dynamic equation, in this step the generalized acceleration are calculated using the generalized forces and moments. Finally, with the last set the generalized forces and calculated. In this virtual car, we have three kind of suspension systems available, e.g., Double Wishbone, McPherson and Multi-link. Lookup tables are employed to describe the force elements.&lt;/p&gt;
+&lt;p&gt;Hi! My name is Abel and I&amp;rsquo;m from Peru. Using this personal site I would like to share my current research as well as some publications in congress and journals.  I&amp;rsquo;m doing my PhD dregee at PUC-Rio in Brazil. The objetive of my thesis is implement a control algorithm that integrates the main sub-controls that a passenger vehicle have, for instance, ABS, ESP, TCS and among others. My research interest include multibody dynamics, control theory and parallel computing. Currently, I&amp;rsquo;m working at the Mehrkörperdynamik Labor at OTH Regensburg in Germany. Here, my main task is to improve a virtual test car model implemented in MATLAB.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Double Wishbone kinematic modeling</title>
+      <link>https://aarrietac.github.io/academic/post/double_wishbone_axle/</link>
+      <pubDate>Thu, 18 Aug 2016 10:00:00 +0000</pubDate>
+      
+      <guid>https://aarrietac.github.io/academic/post/double_wishbone_axle/</guid>
+      <description>
 
-&lt;h2 id=&#34;tire-modeling&#34;&gt;Tire modeling&lt;/h2&gt;
+&lt;h2 id=&#34;description:5dfa281d035c0b5085b34657ad0cf4bc&#34;&gt;Description&lt;/h2&gt;
 
-&lt;p&gt;In vehicle dynamics, one of the most important phenomena is the tire-road interaction. In a proper vehicle model, the tire need to be modeled according to the application for which the vehicle model is being built. In this project, the Tire Model easy to use, also called TMeasy, is adopted. This model have two main advantages, e.g., accurate results and low time comsuming.&lt;/p&gt;
+&lt;p&gt;The suspension is an important mechanical system in road vehicles. A typical suspension system consist in links, control arms, bushing, spring, damper and bump-stop. The rigid parts, i.e. links and control arms determine the kinematic of the suspension and the force elements, i.e. spring, damper and bump-stop define the forces that the suspension, with a generalize motion (road irregularities), will apply to the chassis. We can see on Fig. 1, some common suspension systems in passenger cars.&lt;/p&gt;
 
-&lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
+&lt;p&gt;&lt;div style=&#34;text-align:center&#34; markdown=&#34;1&#34;&gt;
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://localhost:1313/academic/img/susp_models.png&#34; width=&#34;900&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Double wishbone, McPherson, and multi-link suspensions [1].&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;div style=&#34;text-align:left&#34; markdown=&#34;1&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The function of a suspension system can be categories into:&lt;/p&gt;
+
+&lt;h4 id=&#34;safety:5dfa281d035c0b5085b34657ad0cf4bc&#34;&gt;Safety&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ensure the maximum contact between the tires and the road,&lt;/li&gt;
+&lt;li&gt;Mantain the wheel in a proper alignment,&lt;/li&gt;
+&lt;li&gt;Carry the car and passengers weight.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;comfort:5dfa281d035c0b5085b34657ad0cf4bc&#34;&gt;Comfort&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Limit the travel distance of the chassis,&lt;/li&gt;
+&lt;li&gt;Reduce the vertical accelerations,&lt;/li&gt;
+&lt;li&gt;Absorb the impacts of the road (irrugularities, obstacles and holes).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;references:5dfa281d035c0b5085b34657ad0cf4bc&#34;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;[1]  Rill, G.: &lt;a href=&#34;https://www.crcpress.com/Road-Vehicle-Dynamics-Fundamentals-and-Modeling/Rill/p/book/9781439838983&#34;&gt;Road Vehicle Dynamics - Fundamentals and Modeling&lt;/a&gt;, Taylor &amp;amp; Francis, Boca Raton, 2011.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Virtual Test Axle Kinematics</title>
+      <link>https://aarrietac.github.io/academic/project/vitual-test-axle/</link>
+      <pubDate>Thu, 18 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://aarrietac.github.io/academic/project/vitual-test-axle/</guid>
+      <description>
+
+&lt;h2 id=&#34;description:4f40af4c37718013c8823ec3e696e0c2&#34;&gt;Description&lt;/h2&gt;
+
+&lt;p&gt;The virtual test axle kinematics is a tool programmed in python that helps the understanding of how works the suspension systems. In this tool, the Double Wishbone, McPherson and Multi-link axle kinematics are available.&lt;/p&gt;
+
+&lt;h2 id=&#34;about-the-modeling:4f40af4c37718013c8823ec3e696e0c2&#34;&gt;About the modeling&lt;/h2&gt;
+
+&lt;p&gt;The kinematic model of each axle is based on the book, &lt;a href=&#34;https://www.crcpress.com/Road-Vehicle-Dynamics-Fundamentals-and-Modeling/Rill/p/book/9781439838983&#34;&gt;Road Vehicle Dynamics: Fundamentals and Modeling&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;note:4f40af4c37718013c8823ec3e696e0c2&#34;&gt;Note&lt;/h3&gt;
 
 &lt;p&gt;More details about this project are available soon!&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>about</title>
-      <link>https://aarrietac.github.io/academic/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <title>PyCar: The virtual test car in Python</title>
+      <link>https://aarrietac.github.io/academic/project/vitual-test-car/</link>
+      <pubDate>Tue, 09 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://aarrietac.github.io/academic/home/about/</guid>
+      <guid>https://aarrietac.github.io/academic/project/vitual-test-car/</guid>
       <description>
 
-&lt;h1 id=&#34;biography&#34;&gt;Biography&lt;/h1&gt;
+&lt;p&gt;A vehicle model implemented in python for dynamics analysis and control design.&lt;/p&gt;
 
-&lt;p&gt;Hi! My name is Abel and I&amp;rsquo;m from Peru. Using this personal site I would like share my current research as well as some publications in congress and journals.  I&amp;rsquo;m doing my PhD dregee at PUC-Rio in Brazil. The objetive of my thesis is implement a control algorithm that integrate the main sub-controls that a passenger vehicle have, for instance, ABS, ESP, TCS, etc. My research interest include multibody dynamics, control theory and parallel computing. Currently, I&amp;rsquo;m working at the Mehrkörperdynamik Labor at OTH Regensburg in Germany. Here, my main task is improve a virtual test car model implemented in MATLAB.&lt;/p&gt;
+&lt;h2 id=&#34;vehicle-modeling:6dbeb5045cc5f922e01816bc91b7b629&#34;&gt;Vehicle modeling&lt;/h2&gt;
+
+&lt;p&gt;For the modeling, the multi-body approach is applied and nine rigid bodies are considered, namely, 4 wheel-tires, 4 knuckles and 1 chassis (see Fig. 1). The equation of motions are obtained using the Jourdain&amp;rsquo;s Principle, also called the method of virtual power. Finally, a set of three differential equations describe the dynamics of the vehicle. The first set is the kinematic equation, here, the time derivative of the generalized coordinates is calculated using the kinematic matrix and the vector of generalized velocities. The second set is the dynamic equation, in this step the generalized acceleration are calculated using the vector of generalized forces and moments. The last set of equations is used to calculate the generalized forces of the force elements. In this virtual car, three kind of suspension systems available, e.g., Double Wishbone, McPherson and Multi-link. Lookup tables are employed to describe the force elements.&lt;/p&gt;
+
+&lt;p&gt;&lt;div style=&#34;text-align:center&#34; markdown=&#34;1&#34;&gt;
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://localhost:1313/academic/img/vehicle.png&#34; width=&#34;900&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Multi-body vehicle model and its coordinate systems [1].&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;div style=&#34;text-align:left&#34; markdown=&#34;1&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tire-modeling:6dbeb5045cc5f922e01816bc91b7b629&#34;&gt;Tire modeling&lt;/h2&gt;
+
+&lt;p&gt;In vehicle dynamics, one of the most important physical phenomena is the tire-road interaction. In a proper vehicle model, the tire needs to be modeled according to the application for which the vehicle model is being built. In this project, the Tire Model easy to use, also called TMeasy [2], is adopted. This model has two main advantages, accurate results and low time comsuming.&lt;/p&gt;
+
+&lt;h2 id=&#34;references:6dbeb5045cc5f922e01816bc91b7b629&#34;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;[1]  Rill, G.: &lt;a href=&#34;https://www.crcpress.com/Road-Vehicle-Dynamics-Fundamentals-and-Modeling/Rill/p/book/9781439838983&#34;&gt;Road Vehicle Dynamics - Fundamentals and Modeling&lt;/a&gt;, Taylor &amp;amp; Francis, Boca Raton, 2011.&lt;/p&gt;
+
+&lt;p&gt;[2]  Rill, G.: &lt;a href=&#34;https://hps.hs-regensburg.de/~rig39165/paper/Rill_IAVSD2013.pdf&#34;&gt;TMeasy–A Handling Tire Model based on a three-dimensional slip approach&lt;/a&gt;. In Proceedings of the XXIII International Symposium on Dynamic of Vehicles on Roads and on Tracks (IAVSD 2013). Quingdao, China, 2013.&lt;/p&gt;
+
+&lt;h3 id=&#34;note:6dbeb5045cc5f922e01816bc91b7b629&#34;&gt;Note&lt;/h3&gt;
+
+&lt;p&gt;More details about this project will be available soon!&lt;/p&gt;
 </description>
     </item>
     

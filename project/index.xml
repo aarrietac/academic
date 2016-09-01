@@ -1,34 +1,80 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Academic Theme</title>
+    <title>Projects on Vehicle dynamics and more</title>
     <link>https://aarrietac.github.io/academic/project/</link>
-    <description>Recent content in Projects on Academic Theme</description>
+    <description>Recent content in Projects on Vehicle dynamics and more</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Abel Castro</copyright>
-    <lastBuildDate>Tue, 09 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Aug 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://aarrietac.github.io/academic/project/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Virtual Test Car</title>
+      <title>Virtual Test Axle Kinematics</title>
+      <link>https://aarrietac.github.io/academic/project/vitual-test-axle/</link>
+      <pubDate>Thu, 18 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://aarrietac.github.io/academic/project/vitual-test-axle/</guid>
+      <description>
+
+&lt;h2 id=&#34;description:4f40af4c37718013c8823ec3e696e0c2&#34;&gt;Description&lt;/h2&gt;
+
+&lt;p&gt;The virtual test axle kinematics is a tool programmed in python that helps the understanding of how works the suspension systems. In this tool, the Double Wishbone, McPherson and Multi-link axle kinematics are available.&lt;/p&gt;
+
+&lt;h2 id=&#34;about-the-modeling:4f40af4c37718013c8823ec3e696e0c2&#34;&gt;About the modeling&lt;/h2&gt;
+
+&lt;p&gt;The kinematic model of each axle is based on the book, &lt;a href=&#34;https://www.crcpress.com/Road-Vehicle-Dynamics-Fundamentals-and-Modeling/Rill/p/book/9781439838983&#34;&gt;Road Vehicle Dynamics: Fundamentals and Modeling&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;note:4f40af4c37718013c8823ec3e696e0c2&#34;&gt;Note&lt;/h3&gt;
+
+&lt;p&gt;More details about this project are available soon!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PyCar: The virtual test car in Python</title>
       <link>https://aarrietac.github.io/academic/project/vitual-test-car/</link>
       <pubDate>Tue, 09 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>https://aarrietac.github.io/academic/project/vitual-test-car/</guid>
       <description>
 
-&lt;h2 id=&#34;vehicle-modeling&#34;&gt;Vehicle modeling&lt;/h2&gt;
+&lt;p&gt;A vehicle model implemented in python for dynamics analysis and control design.&lt;/p&gt;
 
-&lt;p&gt;In this project, I&amp;rsquo;m developing a virtual test car. For the modeling, the multi-body approach is applied and nine rigid bodies are considered, namely, 4 wheel-tires, 4 knuckles and 1 chassis (see Fig. 1). The equation of motions are obtained using the Jourdain&amp;rsquo;s Principle, also called the method of virtual power. Finally, a set of three differential equations describe the dynamics of the vehicle. The first set is the kinematic equation, here, the time derivative of the generalized coordinates is calculated using the kinematic matrix and vector of generalized velocities. The second set is the dynamic equation, in this step the generalized acceleration are calculated using the generalized forces and moments. Finally, with the last set the generalized forces and calculated. In this virtual car, we have three kind of suspension systems available, e.g., Double Wishbone, McPherson and Multi-link. Lookup tables are employed to describe the force elements.&lt;/p&gt;
+&lt;h2 id=&#34;vehicle-modeling:6dbeb5045cc5f922e01816bc91b7b629&#34;&gt;Vehicle modeling&lt;/h2&gt;
 
-&lt;h2 id=&#34;tire-modeling&#34;&gt;Tire modeling&lt;/h2&gt;
+&lt;p&gt;For the modeling, the multi-body approach is applied and nine rigid bodies are considered, namely, 4 wheel-tires, 4 knuckles and 1 chassis (see Fig. 1). The equation of motions are obtained using the Jourdain&amp;rsquo;s Principle, also called the method of virtual power. Finally, a set of three differential equations describe the dynamics of the vehicle. The first set is the kinematic equation, here, the time derivative of the generalized coordinates is calculated using the kinematic matrix and the vector of generalized velocities. The second set is the dynamic equation, in this step the generalized acceleration are calculated using the vector of generalized forces and moments. The last set of equations is used to calculate the generalized forces of the force elements. In this virtual car, three kind of suspension systems available, e.g., Double Wishbone, McPherson and Multi-link. Lookup tables are employed to describe the force elements.&lt;/p&gt;
 
-&lt;p&gt;In vehicle dynamics, one of the most important phenomena is the tire-road interaction. In a proper vehicle model, the tire need to be modeled according to the application for which the vehicle model is being built. In this project, the Tire Model easy to use, also called TMeasy, is adopted. This model have two main advantages, e.g., accurate results and low time comsuming.&lt;/p&gt;
+&lt;p&gt;&lt;div style=&#34;text-align:center&#34; markdown=&#34;1&#34;&gt;
 
-&lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://localhost:1313/academic/img/vehicle.png&#34; width=&#34;900&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Multi-body vehicle model and its coordinate systems [1].&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
 
-&lt;p&gt;More details about this project are available soon!&lt;/p&gt;
+&lt;div style=&#34;text-align:left&#34; markdown=&#34;1&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tire-modeling:6dbeb5045cc5f922e01816bc91b7b629&#34;&gt;Tire modeling&lt;/h2&gt;
+
+&lt;p&gt;In vehicle dynamics, one of the most important physical phenomena is the tire-road interaction. In a proper vehicle model, the tire needs to be modeled according to the application for which the vehicle model is being built. In this project, the Tire Model easy to use, also called TMeasy [2], is adopted. This model has two main advantages, accurate results and low time comsuming.&lt;/p&gt;
+
+&lt;h2 id=&#34;references:6dbeb5045cc5f922e01816bc91b7b629&#34;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;[1]  Rill, G.: &lt;a href=&#34;https://www.crcpress.com/Road-Vehicle-Dynamics-Fundamentals-and-Modeling/Rill/p/book/9781439838983&#34;&gt;Road Vehicle Dynamics - Fundamentals and Modeling&lt;/a&gt;, Taylor &amp;amp; Francis, Boca Raton, 2011.&lt;/p&gt;
+
+&lt;p&gt;[2]  Rill, G.: &lt;a href=&#34;https://hps.hs-regensburg.de/~rig39165/paper/Rill_IAVSD2013.pdf&#34;&gt;TMeasy–A Handling Tire Model based on a three-dimensional slip approach&lt;/a&gt;. In Proceedings of the XXIII International Symposium on Dynamic of Vehicles on Roads and on Tracks (IAVSD 2013). Quingdao, China, 2013.&lt;/p&gt;
+
+&lt;h3 id=&#34;note:6dbeb5045cc5f922e01816bc91b7b629&#34;&gt;Note&lt;/h3&gt;
+
+&lt;p&gt;More details about this project will be available soon!&lt;/p&gt;
 </description>
     </item>
     
