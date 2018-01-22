@@ -6,12 +6,30 @@
     <description>Recent content in Publications on Vehicle dynamics and more</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Abel Castro</copyright>
-    <lastBuildDate>Sat, 05 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2017 Abel A. Castro</copyright>
+    <lastBuildDate>Tue, 05 Sep 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://aarrietac.github.io/academic/publication/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Design an integrate vehicle control based-on hierarchical architecture for improve the performance of ground vehicles</title>
+      <title>Development of a robust integrated control system to improve the stability of road vehicles</title>
+      <link>https://aarrietac.github.io/academic/publication/musme_2017/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aarrietac.github.io/academic/publication/musme_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Use of integrated control to enhance the safety of vehicles in run-off-road scenarios</title>
+      <link>https://aarrietac.github.io/academic/publication/diname_2017/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aarrietac.github.io/academic/publication/diname_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Designing an integrated vehicle control based on a hierarchical architecture to improve the performance of ground vehicles</title>
       <link>https://aarrietac.github.io/academic/publication/cobem_2015/</link>
       <pubDate>Sat, 05 Dec 2015 00:00:00 +0000</pubDate>
       
@@ -29,7 +47,7 @@
     </item>
     
     <item>
-      <title>Estimation of Dynamic Parameters of Ground Vehicles based on Genetic Algorithms</title>
+      <title>Estimation of dynamic parameters of ground vehicles based on genetic algorithms</title>
       <link>https://aarrietac.github.io/academic/publication/sae_2013/</link>
       <pubDate>Mon, 07 Oct 2013 00:00:00 +0000</pubDate>
       
