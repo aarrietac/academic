@@ -7,8 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Abel A. Castro</copyright>
-    <lastBuildDate>Tue, 05 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Mar 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://aarrietac.github.io/academic/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Influence of Axle Kinematics on Vehicle Dynamics</title>
+      <link>https://aarrietac.github.io/academic/publication/iak_2018/</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://aarrietac.github.io/academic/publication/iak_2018/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Development of a robust integrated control system to improve the stability of road vehicles</title>
